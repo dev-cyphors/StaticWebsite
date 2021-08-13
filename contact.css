@@ -1,0 +1,129 @@
+
+/*textarea, input {
+     box-sizing: border-box;
+     border-width: 2px;
+     color: rgb(0, 0, 0);
+}  
+
+.contact{
+    background-image: url("images/SSS.png");
+    background-repeat: no-repeat;
+    background-size: 320vh;
+}
+
+.container {  
+    align-content: center;
+    text-align: center;
+    max-width: 510px;
+    min-width: 324px;
+    margin:10px auto 10px;
+  border: 4px solid rgb(115, 119, 124); 
+}
+
+.row_header {
+    padding: 0.1px;
+    background-image: url("images/banner.jpg");
+    background-repeat: no-repeat;
+    background-size: 510px;
+    text-align: left;
+  }
+
+.row_header h3{
+    text-align: left;
+    color: #fff;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 15px;
+    padding: 50px;
+}
+
+  .row_body {
+    padding: .5em 2.5em 1em;
+    
+  }
+
+.pull-right {
+  float: right; 
+}
+
+.btn {
+  font-size: 10px;
+  font: bold;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  display: inline-block;
+  padding: 5px 10px;
+  margin: 15px 0 0;
+  color: white;
+  background-color: rgb(24, 123, 161);
+  border-width: 0 0 0 0;
+  border-bottom: 5px solid;
+  text-transform: uppercase;
+}
+
+ .btn-submit {
+     color: rgb(255, 255, 255);
+    background-color: rgb(24, 123, 161);
+  }
+
+form {
+  max-width: 100%;
+  display: block;
+}
+ .row_body ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+   .row_body li{
+      margin: 0 0 0.25em 0; 
+      clear: both;
+      display: inline-block;
+      width: 100%;
+    }
+        p {
+          margin: 0;
+          padding: 0;
+          float: left;
+        }
+          p.right {
+            float: right;
+          }
+
+        .divider {
+          margin: 0.5em 0 0.5em 0;
+          border: 0;
+          height: 1px;
+          width: 100%;
+          display: block;
+          background-color: blue;
+          background-image: linear-gradient(to right, pink, blue);
+        }
+
+        .req {
+          color: rgb(14, 29, 241); 
+        }
+  label {
+    display: block;
+    margin: 0 0 0.5em 0;
+    color: rgb(218, 212, 212);
+    font-size: 20px;
+  }
+  input {
+      display: table-column;
+    margin: 0 0 0.5em 0;
+    border: 1px solid grey;
+    padding: 6px 10px;
+    color: darkgrey;
+    font-size: 20px;
+    width: 350px;
+  }
+  textarea {
+    border: 1px solid grey;
+    padding: 6px 10px;
+    width: 100%;
+    color: darkgrey;
+  }
+  small {
+    color: rgb(255, 255, 255);
+    margin: 0 0 0 0.5em;
+  }
+*/

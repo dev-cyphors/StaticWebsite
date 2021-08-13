@@ -1,0 +1,398 @@
+html{
+    scroll-behavior: smooth;
+}
+body{
+    font-family: serif;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    background: url("images/SSS.png");
+    background-size: 3750px;
+}
+
+header{
+    color: white;
+    background-image: url("images/SSS.png");
+    background-position: unset;
+    background-repeat: no-repeat;
+    text-align: center;
+    background-color: rgb(94, 88, 88);
+    color:white;
+    padding: 50px 40px 0px 40px;
+    flex-direction: row;
+}
+
+.title {
+    background-color: dimgrey;
+    padding: 5px 40px 5px 590px;   
+}
+
+h1{
+    font-size: 20px;
+    color: whitesmoke;
+    display: table-row;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+footer{
+    align-content: center;
+    background-color: rgb(22, 22, 22);
+    color:rgb(161, 157, 157);
+    padding: 10px ;
+    text-align: center;
+}
+
+footer div .co{
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(75, 170, 170);
+}
+
+.address p, a{
+    justify-content: center;
+     text-align: center;
+    text-decoration: none;
+    color: rgb(94, 150, 185);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.address p{
+   position: relative;
+   
+}
+
+.address a:hover{
+    color: rgb(155, 217, 255);
+}
+
+.social{
+    margin: 20px;
+    text-align: center;
+    justify-content: center;
+    display:flex; 
+}
+ 
+.social a{
+    text-decoration: none;
+    color: #666;
+}
+
+.social a:hover{
+    color: cyan;
+}
+
+.social ul{
+    text-align: center;
+    justify-content: center;
+    margin:0px;
+    padding:0px;
+    list-style: none;
+    margin:0px 20px 0px 0px;
+    display:flex;
+}
+
+.social ul li::before{
+    position: absolute;
+    content:  ' ';
+    top: 0;
+    left: 0;
+    background:cyan;   
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+    z-index: -1;
+    transform: scale(0.9);
+    transition: .5s;
+}
+
+.social ul li:hover::before{
+    filter: blur(3px);
+    transform: scale(1.2);
+    box-shadow: 0 0 15px  cyan;
+}
+
+.social ul li:hover{
+    color: cyan;
+    box-shadow: 0 0 15px  cyan;
+    text-shadow: 0 0 15px  cyan;
+}
+
+.social li{
+    position: relative;
+    display: block;
+    color: #666;    
+    font-size: 20px;
+    height: 40px;
+    width: 40px;
+    background:  #171515;
+    line-height: 41px;
+    border-radius: 50%;
+    margin: 0 15px;
+    transition: 0.5s;
+}
+
+ul{
+    margin:0px;
+    padding:0px;
+    list-style-type: none;
+}
+
+li{
+    margin:0px 20px 0px 0px;
+    display:inline-block;
+    
+}
+
+.web a:hover{
+    text-decoration:underline;
+    color: rgb(153, 235, 255);
+    text-decoration: none;
+    font-size: 20px;
+    transition: 0.3s;
+}
+
+.web a{  
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 22px;
+    color: white;
+    text-decoration-color: lavenderblush;
+    text-shadow: lightgrey;
+    text-decoration: none;
+}
+
+.hyperlink {
+    color: rgb(132, 216, 255);
+    text-decoration-color: lavenderblush;
+    text-shadow: lightgrey;
+    text-decoration: none;
+}
+/*LOGO*/
+header .logo a{
+    text-align: center;
+    background-image: url("images/IRONEX.png");
+    background-size: 400px;
+    background-repeat: no-repeat;
+    display: inline-block;
+    text-indent: -99999999999px;
+    height:100px;
+    position: relative;
+    top:-30px;
+    width: 400px;
+}
+
+.card{
+    border-radius: 4%;
+    box-shadow: 0 20px 15px 0 rgba(0, 0, 0, 0.541);
+    transition: 0.4s;
+    text-align: center;
+}
+
+.card:hover {
+        border-radius: 10%;
+        padding: 15px;
+        background-color: rgb(23, 152, 190);
+        box-shadow:0 18px 11px 0 rgba(0,0,0,0.2);
+}
+
+.card:hover a{
+    text-decoration: solid;
+    color: rgb(8, 19, 82);
+    box-shadow:0 18px 11px 0 rgba(0,0,0,0.2);
+    border-bottom:5px solid rgb(8, 19, 82);
+}
+
+.card a{
+    align-content: center;
+    border-bottom:5px solid rgb(116, 211, 255);
+    color: rgb(116, 211, 255);
+    display: inline-block;
+    block-size: 40px;
+    text-decoration: none;
+    box-shadow:0 10px 9px 0 rgba(0,0,0,0.2);
+    text-align: center;
+    padding: 15px 20px;
+    margin: 15px 0 0;
+}
+
+.features{
+    
+    background-repeat: no-repeat;
+    color: rgb(255, 255, 255);
+    padding: 40px;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+}
+
+.features figure{
+    margin: auto;
+    text-transform: capitalize;
+    width: 200px;
+    display: block;
+    border-width: 40px;
+}
+
+img{
+    display:inline-block;
+    text-align: center;
+    height: 150px;
+    width: 150px;
+    border-radius: 10%;
+    box-shadow: rgb(0, 0, 0) 0px 10px 10px;
+}
+
+.features figurecaption{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font: bold;
+    font-size: 20px;
+}
+
+.features p{
+    font-style: italic;
+    font-size: 17px;
+}
+
+.up{
+    padding: 0px;
+  
+    position: fixed;
+    width: 50px;
+    height: 50px;
+    background-color: rgb(255, 255, 255);
+    bottom: 40px;
+    right:50px;
+    
+    text-decoration: none;
+    text-align: center;
+    line-height: 52.5px;
+    color: rgb(0, 174, 255);
+    font-size:40px;
+    border-radius: 50%;
+}
+
+.about{
+    text-align: center;
+    align-content: center;
+}
+.ah{
+    background-color:  dimgrey;
+    padding: 20px;
+    text-align: center;
+    align-content: center;
+    padding:5px 40px 5px 690px; 
+}
+.about p{
+    color: ghostwhite;
+    font-size: 20px;
+    padding: 20px;
+}
+
+/*Contact Us*/
+
+.contact{
+    background-image: url("images/SSS.png");
+    background-repeat: no-repeat;
+    background-size: 450vh;
+}
+
+.row_header {
+    padding: 0.1px;
+    background-image: url("images/banner.jpg");
+    background-repeat: no-repeat;
+    background-size: 510px;
+    text-align: left;
+  }
+
+  .row_header h3{
+    text-align: left;
+    color: #fff;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 15px;
+    padding: 50px;
+}
+
+.row_body label{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 18px;
+    padding: 10px;
+    color: rgb(66, 190, 248);
+}
+
+.req {
+    color: rgb(255, 57, 57); 
+    padding: 0 0 0 4px;
+}
+
+.control-group {
+    margin-bottom: 10px;
+  }
+
+form {
+    margin-bottom: 25px;
+  }
+
+/* Style inputs with type="text", select elements and textareas */
+input[type=text],input[type=email], textarea {
+    width: 100%; /* Full width */
+    padding: 12px; /* Some padding */ 
+    border: 2px solid #ccc; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 5px; /* Bottom margin */
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+  }
+  
+  input[type=email]{
+    width: 110%;
+  }
+  textarea{
+    width: 80%;
+  }
+
+  /* Style the submit button with a specific background color etc */
+  input[type=button]{
+    font-size: 15px;
+    font: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: inline-block;
+    padding: 15px 20px;
+    margin: 15px 0 0;
+    color: white;
+    background-color: rgb(24, 123, 161);
+    border-width: 0 0 0 0;
+    border-bottom: 5px solid;
+    text-transform: uppercase;
+    border-radius: 15px;
+  }
+  
+  /* When moving the mouse over the submit button, add a darker green color */
+  input[type=button]:hover {
+    color: rgb(24, 123, 161);
+    background-color: rgb(255, 255, 255);
+  }
+  
+  /* Add a background color and some padding around the form */
+  .container {
+    padding: 0px 10px 0px 10px;
+    border-radius: 5px;
+    background-color: #363636;
+   
+    max-width: 510px;
+    margin:10px auto 10px;
+  border: 4px solid rgb(115, 119, 124); 
+}
+
+.divider {
+    margin: 0.5em 0 0.5em 0;
+    border: 5px;
+    height: 1px;
+    width: 100%;
+    display: block;
+    background-color: rgb(255, 255, 255);
+    background-image: linear-gradient(to right, pink, blue);
+  }
+
+  small {
+    color: rgb(255, 255, 255);
+    margin: 0 0 0 0.5em;
+  }
